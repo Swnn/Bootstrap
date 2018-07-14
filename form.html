@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>基础入门</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body style="padding:50px;background-color: #CCCCCC;">
+<div class="container" style="padding: 50px;background-color: #fff;">
+	<form class="form-horizontal">
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="username">用户名：</label>
+			<div class="col-md-10">
+			<input type="text" id="username" name="username" class="form-control"  placeholder="请输入用户名"/>
+			</div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-2 control-label" for="password">密 码：</label>
+			<div class="col-md-10">
+			<input type="password" name="userpwd" id="password" class="form-control"  placeholder="请输入密码"/>
+		   </div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-2 control-label" >上传图片：</label>
+			<div class="col-md-10">
+			<input type="file" />
+			<p class="help-block">上传图片类型只能是：.jpg、.gif、.png</p>
+			</div>
+		</div>
+		<div class="form-group">
+		  <label  class="col-md-2 control-label">兴趣爱好：</label>
+		  <div class="col-md-10">
+			<label class="checkbox-inline"><input type="checkbox" />画画</label>
+			<label class="checkbox-inline"><input type="checkbox" />音乐</label>
+			<label class="checkbox-inline"><input type="checkbox" />唱歌</label>
+		  </div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-2 control-label">文化程度：</label>
+			<div class="col-md-10">
+			<label class="radio-inline"><input type="radio" />高中</label>
+			<label class="radio-inline"><input type="radio" />大专</label>
+			<label class="radio-inline"><input type="radio" />大本</label>
+		  </div>
+		</div>
+		<div class="form-group">
+			<label class="col-md-2 control-label">个人简介：</label>
+			<div class="col-md-10">
+			<textarea  class="form-control" rows="5" placeholder="请输入个人信息"></textarea>
+		    </div>
+		</div>
+		<div class="col-md-10 col-md-offset-2">
+		<button  class="btn btn-default btn-lg" type="button">提交表单</button>
+	    </div>
+	</form>
+</div>
+ <script src="bootstrap/js/jquery.min.js"></script>
+ <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
